@@ -16,23 +16,22 @@
           <h1>Fetching Countries</h1>
           <fieldset >
             <div class="input-group mb-3 col-sm-12">
-              <input type="text" class="form-control" onkeyup="findCountry()" placeholder="Search a Country..." id="country"/>
+              <input type="text" class="form-control"  placeholder="Search a Country..." id="country"/>
             </div>
             
-            <button id="submit" class="btn btn-primary" type="button" onclick="getInputValue();">Get Value</button>
-          
-
-          <select name="regions" id="regions" >
-            <option  value="africa">africa</option>
-            <option  value="america">america</option>
-            <option  value="asia">asia</option>
-            <option  value="europe">europe</option>
-            <option  value="oceania">oceania</option>
-          </select>
-
-          <button id="switch">Toggle Theme</button>
-          </fieldset>
             
+          
+          <select name="regions" id="regions" >
+            <option selected="selected" value="all">All Countries</option>
+            <option  value="africa">Africa</option>
+            <option  value="america">America</option>
+            <option  value="asia">Asia</option>
+            <option  value="europe">Europe</option>
+            <option  value="oceania">Oceania</option>
+            
+          </select>
+          </fieldset>
+          
           
       </div>
     </nav>
